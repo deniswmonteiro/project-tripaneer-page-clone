@@ -1,0 +1,19 @@
+/** VARIABLES */
+* {
+    /** Font */
+    --font: "Roboto", Helvetica, Arial, sans-serif;
+	
+    /** Colors */
+    --gray-1: #202224;
+    --gray-2: #515355;
+	--gray-3: #7C8086;
+	--gray-4: #ABAEB1;
+    --gray-5: #ECECEC;
+    --gray-6: #F7F7F7;
+    --white: #FFF;
+    --green-1: #02BF9B;
+    --green-2: #DCF8F4;
+    --blue-1: #00A6E8;
+    --blue-2: #CCEDFA;
+    --red: #E0383E;
+}
