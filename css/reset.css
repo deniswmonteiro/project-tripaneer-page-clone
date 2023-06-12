@@ -45,8 +45,5 @@ input {
 
 a {
 	font-size: 1rem !important;
-}
-
-a:hover {
-	text-decoration: none;
+    text-decoration: none;
 }

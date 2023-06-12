@@ -1,0 +1,130 @@
+/** INTRODUCTION **/
+/** Breadcrumb **/
+.ct-breadcrumb {
+    margin: 1.25rem auto;
+}
+
+.ct-breadcrumb .breadcrumb-item a, .ct-breadcrumb .breadcrumb-item span {
+    color: var(--gray-4);
+    font-size: .875rem !important;
+}
+
+.ct-breadcrumb .breadcrumb-item a {
+    margin-right: 5px;
+    transition: .3s;
+}
+
+.ct-breadcrumb .breadcrumb-item a:hover {
+    color: var(--green-1);
+    transition: .3s;
+}
+
+.ct-breadcrumb .breadcrumb-item span {
+    opacity: .5;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: var(--green-1);
+}
+
+#introduction section {
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+/** Favorite **/
+#introduction #ct-add-favorite .ct-icon-heart {
+    cursor: pointer;
+    overflow: inherit;;
+}
+
+#ct-favorite-toast {
+    background-color: var(--blue-1);
+    color: var(--white);
+}
+
+/** Slide **/
+#ct-slide, #ct-slide-elements {
+    display: grid;
+}
+
+#ct-slide {
+    position: relative;
+}
+
+#ct-slide-elements {
+    grid-area: 1/1;
+}
+
+#ct-slide-elements > * {
+    grid-area: 1/1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 6px;
+}
+
+#ct-slide-elements > .active {
+    opacity: 1;
+    visibility: visible;
+}
+
+#ct-slide-controls {
+    grid-area: 1/1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+
+#ct-slide-controls button {
+    opacity: 0;
+    appearance: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#ct-slide-thumb {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    pointer-events: none;
+}
+
+#ct-slide-thumb > span {
+    flex: 1;
+    display: block;
+    height: 4px;
+    background-color: rgba(255, 255, 255, .2);
+    margin: .3125rem;
+    border-radius: 6px;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+#ct-slide-thumb .ct-thumb-item.active {
+    display: block;
+    height: inherit;
+    background-color: rgba(255, 255, 255, .9);
+    border-radius: 6px;
+    transform: translateX(-100%);
+    animation: thumb forwards linear running;
+}
+
+#ct-slide-thumb .ct-thumb-item.paused {
+    animation-play-state: paused;
+}
+
+@keyframes thumb {
+    to {
+        transform: initial;
+    }
+}
+
+.ct-interested-people {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .7) , rgba(255, 255, 255, .1));
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 6px 6px;
+    color: var(--white);
+    padding: .625rem;
+    text-align: center;
+}
