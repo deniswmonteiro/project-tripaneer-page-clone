@@ -27,13 +27,13 @@
     color: var(--green-1);
 }
 
-#introduction section {
+#ct-favorite-slide {
     max-width: 40rem;
     margin: 0 auto;
 }
 
 /** Favorite **/
-#introduction #ct-add-favorite .ct-icon-heart {
+#ct-add-favorite .ct-icon-heart {
     cursor: pointer;
     overflow: inherit;;
 }
@@ -127,4 +127,18 @@
     color: var(--white);
     padding: .625rem;
     text-align: center;
+}
+
+/** Title **/
+.ct-title {
+    margin: 2.5rem 0;
+}
+
+.ct-title h1 {
+    margin-bottom: .3125rem;
+}
+
+.ct-title p {
+    line-height: 1.4;
+    color: var(--gray-4);
 }
