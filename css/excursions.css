@@ -1,0 +1,8 @@
+#dm-excursions li {
+    color: var(--gray-2);
+    font-size: .875rem;
+}
+
+#dm-excursions li:not(:last-of-type) {
+    margin-bottom: .3125rem;
+}
