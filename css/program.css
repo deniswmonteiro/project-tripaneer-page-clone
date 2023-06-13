@@ -1,0 +1,17 @@
+#dm-program section:not(:last-of-type) {
+    margin-bottom: 2.5rem;
+}
+
+#dm-program p {
+    color: var(--gray-2);
+}
+
+#dm-program #dm-program-itinerary span {
+    line-height: 1.2;
+    margin-bottom: 1.25rem;
+}
+
+#dm-program #dm-program-monday p:not(:last-of-type),
+#dm-program #dm-program-saturday p:not(:last-of-type) {
+    margin-bottom: 1rem;
+}

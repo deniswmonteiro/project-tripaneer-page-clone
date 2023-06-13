@@ -1,16 +1,16 @@
 /** ACCOMMODATION **/
 /** Facilities **/
-#dm-facilities {
+#dm-accommodation section:not(:last-of-type) {
     margin-bottom: 2.5rem;
 }
 
-#dm-facilities li {
+#dm-accommodation-facilities li {
     padding: .25rem;
     color: var(--gray-2);
     font-size: .875rem;
 }
 
-#dm-facilities li::before {
+#dm-accommodation-facilities li::before {
     content: "";
     display: inline-block;
     width: .5rem;
@@ -20,19 +20,14 @@
     vertical-align: middle;
 }
 
-#dm-facilities p {
+#dm-accommodation-facilities p {
     color: var(--gray-2);
 }
 
-#dm-facilities p:first-of-type {
+#dm-accommodation-facilities p:first-of-type {
     margin-top: 1.25rem;
 }
 
-#dm-facilities p:not(:last-of-type) {
-    margin-bottom: 1.25rem;
-}
-
-#dm-garden-view-room,
-#dm-mountain-view-room {
-    margin-bottom: 2.5rem;
+#dm-accommodation-facilities p:not(:last-of-type) {
+    margin-bottom: 1rem;
 }
