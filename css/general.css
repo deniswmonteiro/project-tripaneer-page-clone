@@ -7,12 +7,17 @@ body.paused {
     touch-action: manipulation;
 }
 
-/** Bootstrap card **/
-.card, .card-header {
+/** BOOTSTRAP CARD **/
+.card,
+.card-header {
     background-color: var(--white);
 }
 
-.card-header, .card-body {
+.card-header {
+    padding: 1.25rem 2.5rem;
+}
+
+.card-body {
     padding: 2.5rem;
 }
 
@@ -21,10 +26,68 @@ body.paused {
     border-bottom: none;
 }
 
-.card h2, .card h3 {
+.card h2,
+.card h3 {
     line-height: 1.2;
 }
 
 .card h3 {
+    margin-bottom: .625rem;
+}
+
+/** BUTTON TOGGLE COLLAPSE **/
+#dm-btn-toggle-collapse button {
+    margin: 1.25rem 0;
+    font-size: .75rem;
+    color: var(--gray-1);
+    border: 1px solid var(--gray-1);
+    cursor: pointer;
+    transition: .3s;
+}
+
+#dm-btn-toggle-collapse button:hover {
+    background-color: var(--gray-1);
+    color: var(--white);
+    transition: .3s;
+}
+
+#dm-btn-toggle-collapse i {
+    margin-right: .3125rem;
+}
+
+/** ACCORDION TRIP DESCRIPTION **/
+#dm-accordion-trip-description .accordion-item {
+    margin-bottom: 2.5rem;
+}
+
+#dm-accordion-trip-description .accordion-button {
+    padding: 1.25rem 2.5rem;
+}
+
+#dm-accordion-trip-description .accordion-button i {
+    margin-right: .5rem;
+    color: var(--green-1);
+}
+
+#dm-accordion-trip-description .accordion-body {
+    padding: 2.5rem;
+}
+
+#dm-accordion-trip-description .accordion-button {
+    color: var(--gray-1);
+    background-color: var(--gray-5);
+    border-bottom: none;
+}
+
+#dm-accordion-trip-description .accordion-button:focus {
+    box-shadow: none;
+}
+
+#dm-accordion-trip-description .accordion-button,
+#dm-accordion-trip-description .accordion-body h3 {
+    line-height: 1.2;
+}
+
+#dm-accordion-trip-description .accordion-body h3 {
     margin-bottom: .625rem;
 }

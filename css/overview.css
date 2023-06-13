@@ -57,7 +57,7 @@
 }
 
 /** Highlights, Skill Level **/
-#dm-overview-highlights, #dm-overview-skill-level {
+#dm-overview-highlights {
     margin-bottom: 2.5rem;
 }
 
@@ -65,6 +65,7 @@
 #dm-overview-skill-level li,
 #dm-overview-details li {
     color: var(--gray-2);
+    font-size: .875rem;
 }
 
 #dm-overview-highlights li:not(:last-of-type),
@@ -72,9 +73,14 @@
     margin-bottom: .3125rem;
 }
 
+/** Skill Level **/
+#dm-overview-skill-level {
+    margin-bottom: 1.25rem;
+}
+
 /** Details **/
 #dm-overview-details {
-    margin-top: 2.5rem;
+    margin-top: 1.25rem;
 }
 
 #dm-overview-details ul {
@@ -82,7 +88,7 @@
 }
 
 #dm-overview-details li:not(:last-of-type) {
-    margin-bottom: .625rem;
+    margin-bottom: .3125rem;
 }
 
 #dm-overview-details i {

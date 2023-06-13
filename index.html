@@ -162,10 +162,11 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-8">
+                <!-- Overview -->
                 <div class="card border-0" id="dm-overview">
                     <div class="card-header">
                         <p class="text-uppercase">Overview</p>
-                        <h2 class="fs-4 fw-medium">Luxury Cooking Holiday on Mountains near Rome, Italy</h2>
+                        <h2 class="fs-4">Luxury Cooking Holiday on Mountains near Rome, Italy</h2>
                     </div>
                     <div class="card-body">
                         <section>
@@ -225,7 +226,7 @@
 
                         <!-- Details -->
                         <section id="dm-overview-details">
-                            <ul class="ps-0">
+                            <ul class="ps-0 mb-0">
                                 <li class="d-flex align-items-center">
                                     <i class="bi bi-calendar"></i>
                                     <span>
@@ -254,6 +255,98 @@
                                 </li>
                             </ul>
                         </section>
+                    </div>
+                </div>
+
+                <!-- Button toggle collapse -->
+                <div class="d-flex justify-content-end" id="dm-btn-toggle-collapse">
+                    <button class="btn"
+                        onclick="return window.toggleCollapse(this)">
+                        <i class="bi bi-dash-lg"></i>
+                        <span>Hide all</span>
+                    </button>
+                </div>
+
+                <!-- Trip Description -->
+                <div class="accordion" id="dm-accordion-trip-description">
+                    <!-- Accommodation -->
+                    <div class="accordion-item border-0" id="dm-accommodation">
+                        <h2 class="accordion-header">
+                            <button type="button" class="accordion-button fw-medium fs-4"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#dm-trip-accommodation"
+                                aria-expanded="true"
+                                aria-controls="dm-trip-accommodation">
+                                <i class="bi bi-building"></i>
+                                Accommodation
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse show" id="dm-trip-accommodation">
+                            <div class="accordion-body">
+                                <!-- Facilities -->
+                                <section id="dm-facilities">
+                                    <h3 class="fs-5">Facilities</h3>
+                                    <ul class="list-group list-group-horizontal row ps-2">
+                                        <li class="list-group-item border-0 col-12 col-lg-6">
+                                            Sauna
+                                        </li>
+                                        <li class="list-group-item border-0 col-12 col-lg-6">
+                                            Swimming pool (outdoor)
+                                        </li>
+                                    </ul>
+                                    <ul class="list-group list-group-horizontal row ps-2">
+                                        <li class="list-group-item border-0 col-12 col-lg-6">
+                                            Garden
+                                        </li>
+                                        <li class="list-group-item border-0 col-12 col-lg-6">
+                                            Kitchen
+                                        </li>
+                                    </ul>
+                                    <ul class="list-group list-group-horizontal row ps-2">
+                                        <li class="list-group-item border-0 col-12 col-lg-6">
+                                            Free Wi-Fi
+                                        </li>
+                                        <li class="list-group-item border-0 col-12 col-lg-6">
+                                            Patio
+                                        </li>
+                                    </ul>
+
+                                    <p>
+                                        The villa is a part of La Cucina Sabina. It is best described as a luxurious country home which sits on a 150-acre estate surrounded by olive and cherry orchards. Located in the tranquil Sabine hills, at the foothills of the Lucretelli Mountain range, La Cucina Sabina is near enough to Rome to enjoy rich culture, yet far enough to be an oasis of peacefulness and beauty. An inspiring work of architecture, the three-story villa combines the clean lines of Frank Lloyd Wright with classic Italian architecture, bringing in amazing vistas through the floor to ceiling glass, of the beautiful surrounding mountains, gardens, and pool.
+                                    </p>
+                                    <p>
+                                        The villa underwent a major renovation and refurbishment in 2015. It boasts a state of the art demonstration kitchen, impressive art collection, baby grand piano, salt water pool, sauna, rose garden, outdoor pizza oven, eight bedrooms (all with en-suite bathrooms), nine bathrooms, tennis court, and nighttime vistas of lighted hilltop castles. This resort provides a guest washer/dryer, free high speed WiFi and hairdryers in each room.
+                                    </p>
+                                    <p>
+                                        Each bedroom has custom made American king-sized beds that also can divide into twins, large closets, TVs, free Wi-Fi, and premium olive oil based toiletries. Two upstairs suites include balconies with sweeping vistas, large soaking tubs, and separate showers. All upstairs rooms provide views of mountains, hills, and countryside. Ground floor rooms have direct garden access and a shared patio. The villa is near a local train that runs directly into Rome throughout the day.
+                                    </p>
+                                </section>
+
+                                <!-- Garden View Room -->
+                                <section id="dm-garden-view-room">
+                                    <h3 class="fs-5">Garden view room</h3>
+                                    <p>
+                                        Garden view room is a ground floor bedroom with a private bathroom and shared external patio.
+                                    </p>
+                                </section>
+
+                                <!-- Mountain View Room -->
+                                <section id="dm-mountain-view-room">
+                                    <h3 class="fs-5">Mountain view room</h3>
+                                    <p>
+                                        Mountain view room is an upstairs bedroom with private bath. It has views of hills, mountains, olive groves, and lighted hilltop castles at night.
+                                    </p>
+                                </section>
+
+                                <!-- Mountain View Suite -->
+                                <section id="dm-mountain-view-suite">
+                                    <h3 class="fs-5">Mountain view suite</h3>
+                                    <p>
+                                        Mountain view suite is an upstairs suite with balcony and extra large private bath with separate shower and soaking tub. It has panoramic views of hills, mountains, countryside, and sunrise/sunset.
+                                    </p>
+                                </section>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

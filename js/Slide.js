@@ -1,5 +1,6 @@
 import Timeout from "./Timeout.js";
 
+/** Slide with images from trip */
 class Slide {
     constructor(containerId, slidesId, controlsId, time = 3000) {
         this.container = document.querySelector(`#${containerId}`);
@@ -17,10 +18,12 @@ class Slide {
         this.init();
     }
 
+    /** Hide image */
     hide(elem) {
         elem.classList.remove("active");
     }
 
+    /** Show image */
     show(index) {
         this.index = index;
         this.slide = this.slides[this.index];
@@ -36,6 +39,7 @@ class Slide {
         this.auto(this.time);
     }
 
+    /** Switches to the other image automatically */
     auto(time) {
         this.timeout?.clear();
         this.timeout = new Timeout(() => this.next(), time);
@@ -43,6 +47,7 @@ class Slide {
         if (this.thumb) this.thumb.style.animationDuration = `${time}ms`;
     }
 
+    /** Show previous image */
     prev() {
         if (this.paused) return;
 
@@ -50,6 +55,7 @@ class Slide {
         this.show(prev);
     }
 
+    /** Show next image */
     next() {
         if (this.paused) return;
 
@@ -57,6 +63,7 @@ class Slide {
         this.show(next);
     }
 
+    /** Pause slide when button is pressed */
     pause() {
         document.body.classList.add("paused");
 
@@ -67,6 +74,7 @@ class Slide {
         }, 300);
     }
 
+    /** Continue slide when button is released */
     continue() {
         document.body.classList.remove("paused");
 
@@ -79,6 +87,7 @@ class Slide {
         }
     }
 
+    /** Configure buttons */
     configControls() {
         const prevButton = document.createElement("button");
         const nextButton = document.createElement("button");
@@ -97,6 +106,7 @@ class Slide {
         nextButton.addEventListener("pointerup", () => this.next());
     }
 
+    /** Configure indicator buttons */
     configThumbItems() {
         const thumbContainer = document.createElement("div");
 
