@@ -1,3 +1,4 @@
+/** PROGRAM **/
 #dm-program section:not(:last-of-type) {
     margin-bottom: 2.5rem;
 }

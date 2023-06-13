@@ -4,6 +4,10 @@
     margin-bottom: 2.5rem;
 }
 
+#dm-accommodation p {
+    color: var(--gray-2);
+}
+
 #dm-accommodation-facilities li {
     padding: .25rem;
     color: var(--gray-2);
@@ -18,10 +22,6 @@
     background-color: var(--green-1);
     margin-right: 5px;
     vertical-align: middle;
-}
-
-#dm-accommodation-facilities p {
-    color: var(--gray-2);
 }
 
 #dm-accommodation-facilities p:first-of-type {

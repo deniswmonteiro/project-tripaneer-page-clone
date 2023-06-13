@@ -1,0 +1,23 @@
+/** LOCATION **/
+#dm-location section:not(:last-of-type) {
+    margin-bottom: 2.5rem;
+}
+
+#dm-location p {
+    color: var(--gray-2);
+}
+
+#dm-location li {
+    color: var(--gray-2);
+    font-size: .875rem;
+}
+
+#dm-location li:not(:last-of-type) {
+    margin-bottom: .3125rem;
+}
+
+/** Map **/
+#dm-location-map iframe {
+    height: 25rem;
+    border-radius: 6px;
+}
