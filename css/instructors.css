@@ -1,0 +1,16 @@
+/** INSTRUCTORS **/
+#dm-instructors img {
+    max-width: 5rem;
+}
+
+#dm-instructors p {
+    color: var(--gray-2);
+    margin-left: 6.5rem;
+}
+
+@media screen and (max-width: 767px) {
+    #dm-instructors p {
+        margin-top: 1.25rem;
+        margin-left: 0;
+    }
+}
