@@ -12,23 +12,23 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 </head>
 <body>
-    <header class="ct-header">
-        <nav class="navbar navbar-expand-lg p-0 ct-navbar">
+    <header class="dm-header">
+        <nav class="navbar navbar-expand-lg p-0 dm-navbar">
             <div class="container-fluid">
-                <button type="button" id="btn-mobile"
+                <button type="button" id="dm-btn-mobile"
                     data-bs-toggle="collapse"
-                    data-bs-target="#header-menu"
-                    aria-controls="header-menu"
+                    data-bs-target="#dm-header-menu"
+                    aria-controls="dm-header-menu"
                     aria-expanded="false"
                     aria-label="Toggle menu mobile"
                     onclick="return event.preventDefault(), window.toggleMenuMobile(this)">
-                    <span id="icon-hamburger"></span>
+                    <span id="dm-icon-hamburger"></span>
                 </button>
-                <a class="navbar-brand ct-logo" href="/">
+                <a class="navbar-brand dm-logo" href="/">
                     <img src="img/logo.svg" alt="Tripaneer">
                 </a>
-                <div class="collapse navbar-collapse" id="header-menu">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ct-left-menu">
+                <div class="collapse navbar-collapse" id="dm-header-menu">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 dm-left-menu">
                         <li class="nav-item">
                             <a class="nav-link" href="#">
                                 Destinations
@@ -46,20 +46,20 @@
                         </li>
                     </ul>
                 </div>
-                <ul class="navbar-nav flex-row ms-auto ct-right-menu">
+                <ul class="navbar-nav flex-row ms-auto dm-right-menu">
                     <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center ct-currency" href="#">
+                        <a class="nav-link d-flex align-items-center dm-currency" href="#">
                             <i class="bi bi-globe fs-4"></i>
                             <span class="fw-bold">BRL</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ct-favorites" href="#">
+                        <a class="nav-link dm-favorites" href="#">
                             <i class="bi bi-heart fs-4"></i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center ct-profile" href="#">
+                        <a class="nav-link d-flex align-items-center dm-profile" href="#">
                             <span class="fw-bold rounded-circle">
                                 D
                             </span>
@@ -72,10 +72,10 @@
     </header>
 
     <!-- Introduction -->
-    <section id="introduction">
+    <section id="dm-introduction">
         <div class="container">
             <!-- Breadcrumb -->
-            <nav aria-label="breadcrumb" class="ct-breadcrumb">
+            <nav aria-label="breadcrumb" class="dm-breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item">
                         <a href="#">
@@ -91,12 +91,12 @@
                     </li>
                 </ol>
             </nav>
-            <div class="d-flex flex-column" id="ct-favorite-slide">
+            <div class="d-flex flex-column" id="dm-favorite-slide">
                 <!-- Favorite -->
-                <div class="align-self-end mb-3" id="ct-add-favorite"
+                <div class="align-self-end mb-3" id="dm-add-favorite"
                     onclick="return window.setFavorite(this)">
                     <div class="toast-container position-fixed bottom-0 start-50 translate-middle-x p-3">
-                        <div class="toast w-100" id="ct-favorite-toast"
+                        <div class="toast w-100" id="dm-favorite-toast"
                             role="alert"
                             aria-live="assertive"
                             aria-atomic="true"
@@ -109,7 +109,7 @@
                     </div>
 
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
-                        class="bi bi-heart ct-icon-heart" 
+                        class="bi bi-heart dm-icon-heart" 
                         viewBox="0 0 16 16">
                         <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z "/>
                         <path fill-rule="evenodd" stroke="#202224"
@@ -134,8 +134,8 @@
                 </div>
 
                 <!-- Slide -->
-                <div id="ct-slide">
-                    <div id="ct-slide-elements">
+                <div id="dm-slide">
+                    <div id="dm-slide-elements">
                         <img src="img/slide/img1.jpg" alt="Image 1">
                         <img src="img/slide/img2.jpg" alt="Image 2">
                         <img src="img/slide/img3.jpg" alt="Image 3">
@@ -143,13 +143,13 @@
                         <img src="img/slide/img5.jpg" alt="Image 5">
                         <img src="img/slide/img6.jpg" alt="Image 6">
                     </div>
-                    <div id="ct-slide-controls"></div>
-                    <div class="ct-interested-people">
-                        <span class="ct-qty-people">8</span> people currently interested
+                    <div id="dm-slide-controls"></div>
+                    <div class="dm-interested-people">
+                        <span class="dm-qty-people">8</span> people currently interested
                     </div>
                 </div>
             </div>
-            <div class="ct-title">
+            <div class="dm-title">
                 <h1 class="fs-2">
                     7 Day All-inclusive Italy Luxury Culinary Vacation in Beautiful Roman Countryside
                 </h1>

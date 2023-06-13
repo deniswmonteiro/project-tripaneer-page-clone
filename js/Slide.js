@@ -100,7 +100,7 @@ class Slide {
     configThumbItems() {
         const thumbContainer = document.createElement("div");
 
-        thumbContainer.id = "ct-slide-thumb";
+        thumbContainer.id = "dm-slide-thumb";
 
         for (let i = 0; i < this.slides.length; i++) {
             thumbContainer.innerHTML += "<span><span class='ct-thumb-item'></span></span>";
@@ -117,4 +117,4 @@ class Slide {
     }
 }
 
-new Slide("ct-slide", "ct-slide-elements", "ct-slide-controls");
+new Slide("dm-slide", "dm-slide-elements", "dm-slide-controls");

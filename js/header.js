@@ -1,13 +1,13 @@
 /** Close menu mobile when click in menu link */
 window.linkCloseMenuMobile = function () {
-    const btnMobile = document.querySelector("#btn-mobile");
+    const btnMobile = document.querySelector("#dm-btn-mobile");
 
     window.toggleMenuMobile(btnMobile, true);
 }
 
 /** Toggle menu mobile */
 window.toggleMenuMobile = function (el, link = false) {
-    const nav = document.querySelector("#header-menu");
+    const nav = document.querySelector("#dm-header-menu");
     let active;
 
     nav.classList.toggle("active");

@@ -1,10 +1,10 @@
 window.setFavorite = function (el) {
     const iconHeart = $(el).children()[0];
-    const qtyPeopleInterest = $(".ct-qty-people").text();
+    const qtyPeopleInterest = $(".dm-qty-people").text();
 
     // Toast
-    const toastBody = document.querySelector("#ct-favorite-toast .toast-body span");
-    const toastLiveExample = document.querySelector("#ct-favorite-toast");
+    const toastBody = document.querySelector("#dm-favorite-toast .toast-body span");
+    const toastLiveExample = document.querySelector("#dm-favorite-toast");
 
     bootstrap.Toast.getOrCreateInstance(toastLiveExample).show();
 
@@ -12,7 +12,7 @@ window.setFavorite = function (el) {
 
     if ($(iconHeart).hasClass("active")) {
         $("#add-favorite")[0].beginElement();
-        $(".ct-qty-people").text(function () {
+        $(".dm-qty-people").text(function () {
             return Number(qtyPeopleInterest) + 1
         });
 
@@ -21,7 +21,7 @@ window.setFavorite = function (el) {
 
     else {
         $("#remove-favorite")[0].beginElement();
-        $(".ct-qty-people").text(function () {
+        $(".dm-qty-people").text(function () {
             return Number(qtyPeopleInterest) - 1;
         });
 

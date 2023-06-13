@@ -17,7 +17,8 @@ body.paused {
 }
 
 .card-header {
-    border-color: var(--green-1);
+    background-color: var(--gray-5);
+    border-bottom: none;
 }
 
 .card h2, .card h3 {
