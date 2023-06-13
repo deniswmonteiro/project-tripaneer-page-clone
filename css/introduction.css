@@ -4,18 +4,20 @@
     margin: 1.25rem auto;
 }
 
-.ct-breadcrumb .breadcrumb-item a, .ct-breadcrumb .breadcrumb-item span {
-    color: var(--gray-4);
-    font-size: .875rem !important;
-}
-
 .ct-breadcrumb .breadcrumb-item a {
+    font-size: .875rem !important;
+    color: var(--green-1);
     margin-right: 5px;
     transition: .3s;
 }
 
+.ct-breadcrumb .breadcrumb-item span {
+    color: var(--gray-4);
+    font-size: .875rem !important;
+}
+
 .ct-breadcrumb .breadcrumb-item a:hover {
-    color: var(--green-1);
+    text-decoration: underline;
     transition: .3s;
 }
 
@@ -40,6 +42,9 @@
 
 #ct-favorite-toast {
     background-color: var(--blue-1);
+}
+
+#ct-favorite-toast i, #ct-favorite-toast p {
     color: var(--white);
 }
 
@@ -136,9 +141,9 @@
 
 .ct-title h1 {
     margin-bottom: .3125rem;
+    line-height: 1.2;
 }
 
 .ct-title p {
-    line-height: 1.4;
     color: var(--gray-4);
 }
