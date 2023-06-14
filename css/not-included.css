@@ -1,0 +1,9 @@
+/** NOT INCLUDED **/
+#dm-not-included li {
+    color: var(--gray-2);
+    font-size: .875rem;
+}
+
+#dm-not-included li:not(:last-of-type) {
+    margin-bottom: .3125rem;
+}
