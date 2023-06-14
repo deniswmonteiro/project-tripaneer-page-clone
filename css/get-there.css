@@ -51,21 +51,12 @@
 }
 
 /** Airports **/
-#dm-get-there .dm-airports {
-    background-color: var(--green-2);
-    border: 1px solid var(--gray-5) !important;
+#dm-get-there .dm-info-box {
+    margin-top: 1.25rem;
 }
 
-#dm-get-there .dm-airports:not(:last-of-type) {
+#dm-get-there .dm-info-box:not(:last-of-type) {
     margin-bottom: 1.25rem;
-}
-
-#dm-get-there .dm-airports .card-body {
-    padding: 1.25rem;
-}
-
-#dm-get-there .dm-airports p {
-    color: var(--gray-2);
 }
 
 @media screen and (max-width: 991px) {

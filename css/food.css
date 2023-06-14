@@ -17,16 +17,6 @@
 }
 
 /** Special Dietary **/
-#dm-special-dietary {
-    background-color: var(--green-2);
-    border: 1px solid var(--gray-5) !important;
+#dm-food .dm-info-box {
     margin-top: 1.25rem;
-}
-
-#dm-special-dietary .card-body {
-    padding: 1.25rem;
-}
-
-#dm-special-dietary p {
-    color: var(--gray-2);
 }

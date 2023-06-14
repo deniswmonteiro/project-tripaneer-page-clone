@@ -1,0 +1,26 @@
+/** CANCELLATION **/
+#dm-cancellation section:not(:last-of-type) {
+    margin-bottom: 2.5rem;
+}
+
+#dm-cancellation ul {
+    margin-bottom: 1.25rem;
+}
+
+#dm-cancellation li {
+    color: var(--gray-2);
+    font-size: .875rem;
+}
+
+#dm-cancellation li:not(:last-of-type) {
+    margin-bottom: .3125rem;
+}
+
+/** COVID-19 info **/
+#dm-cancellation .dm-info-box {
+    background-color: var(--blue-2);
+}
+
+#dm-cancellation .dm-info-box h4 {
+    margin-bottom: .625rem;
+}

@@ -7,18 +7,8 @@
 }
 
 /** Listing **/
-#dm-listing {
-    background-color: var(--green-2);
-    border: 1px solid var(--gray-5) !important;
+#dm-overview .dm-info-box {
     margin-bottom: 1.25rem;
-}
-
-#dm-listing .card-body {
-    padding: 1.25rem;
-}
-
-#dm-listing p {
-    color: var(--gray-2);
 }
 
 /** Description **/
