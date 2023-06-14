@@ -1,0 +1,36 @@
+/** SHARE LISTING **/
+.dm-share-listing h2 i {
+    color: var(--green-1);
+}
+
+.dm-share-listing .dm-social-medias {
+    margin-top: 1.25rem;
+}
+
+.dm-share-listing .dm-social-medias .btn {
+    border: 1px solid var(--gray-1);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.dm-share-listing .dm-social-medias .btn:hover {
+    background-color: var(--gray-1);
+    color: var(--white);
+    transition: .3s;
+}
+
+.dm-share-listing .dm-social-medias .btn i {
+    font-size: 1.25rem;
+}
+
+.dm-share-listing .dm-social-medias .btn i.dm-facebook {
+    color: #4172B8;
+}
+
+.dm-share-listing .dm-social-medias .btn i.dm-twitter {
+    color: #2DB0E3;
+}
+
+.dm-share-listing .dm-social-medias .btn i.dm-whatsapp {
+    color: #02BF9B;
+}

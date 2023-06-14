@@ -29,3 +29,11 @@ window.toggleCollapse = function (el) {
     // Accordion body
     accordionBody.forEach((body) => body.classList.toggle("show"));
 }
+
+/** Return to top */
+window.backToTop = function () {
+    document.documentElement.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}

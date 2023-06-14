@@ -5,9 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project - Tripaneer Clone</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+        crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap" >
     <link rel="stylesheet" href="css/app.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 </head>
@@ -1066,11 +1071,51 @@
                         </div>
                     </div>
                 </div>
+                
+                <!-- Share -->
+                <div class="card border-0 dm-share-listing">
+                    <div class="card-body">
+                        <h2 class="fs-4">
+                            <i class="bi bi-share me-2"></i>
+                            Share this listing
+                        </h2>
+                        <div class="btn-group dm-social-medias" role="group"
+                            aria-label="Social Medias links">
+                            <a href="#" class="btn rounded me-3">
+                                <i class="bi bi-facebook dm-facebook"></i>
+                            </a>
+                            <a href="#" class="btn rounded me-3">
+                                <i class="bi bi-twitter dm-twitter"></i>
+                            </a>
+                            <a href="#" class="btn rounded me-3">
+                                <i class="bi bi-envelope-at"></i>
+                            </a>
+                            <a href="#" class="btn rounded me-3">
+                                <i class="bi bi-whatsapp dm-whatsapp"></i>
+                            </a>
+                            <a href="#" class="btn rounded">
+                                <i class="bi bi-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Button back to top -->
+                <div class="d-flex justify-content-end" id="dm-btn-back-top">
+                    <button class="btn"
+                        onclick="return window.backToTop()">
+                        <i class="bi bi-chevron-up"></i>
+                        <span>Back to top</span>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous">
+    </script>
     <script type="module" src="js/app.js"></script>
 </body>
 </html>

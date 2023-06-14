@@ -104,3 +104,23 @@ body.paused {
 .dm-info-box p {
     color: var(--gray-2);
 }
+
+/** BUTTON BACK TO TOP **/
+#dm-btn-back-top button {
+    margin: 1.25rem 0;
+    font-size: .75rem;
+    color: var(--gray-1);
+    border: 1px solid var(--gray-1);
+    cursor: pointer;
+    transition: .3s;
+}
+
+#dm-btn-back-top button:hover {
+    background-color: var(--gray-1);
+    color: var(--white);
+    transition: .3s;
+}
+
+#dm-btn-back-top i {
+    margin-right: .3125rem;
+}
