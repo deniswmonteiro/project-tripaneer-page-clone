@@ -27,7 +27,3 @@
 #dm-accommodation-facilities p:first-of-type {
     margin-top: 1.25rem;
 }
-
-#dm-accommodation-facilities p:not(:last-of-type) {
-    margin-bottom: 1rem;
-}

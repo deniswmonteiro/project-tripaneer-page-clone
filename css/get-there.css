@@ -1,0 +1,75 @@
+/** EXCURSIONS **/
+#dm-get-there section:not(:last-of-type) {
+    margin-bottom: 2.5rem;
+}
+
+/** Airport Card **/
+#dm-get-there .dm-airport-card {
+    background-color: var(--gray-6);
+    border-color: var(--gray-5);
+}
+
+#dm-get-there .dm-airport-card .card-body,
+#dm-get-there .dm-airport-card .card-footer {
+    padding: 1.25rem;
+}
+
+#dm-get-there .dm-airport-card .card-body h5 {
+    color: var(--gray-1);
+    margin-bottom: .625rem;
+}
+
+#dm-get-there .dm-airport-card .card-body h5 i {
+    color: var(--gray-4);
+    margin-left: .3125rem;
+}
+
+#dm-get-there .dm-airport-card .card-body span:not(:last-of-type) {
+    margin-bottom: .625rem;
+}
+
+#dm-get-there .dm-airport-card .card-body span:last-of-type {
+    color: var(--gray-3);
+}
+
+#dm-get-there .dm-airport-card .card-footer {
+    background-color: var(--gray-6);
+    color: var(--green-1);
+}
+
+#dm-get-there p {
+    color: var(--gray-2);
+}
+
+#dm-get-there li {
+    color: var(--gray-2);
+    font-size: .875rem;
+}
+
+#dm-get-there li:not(:last-of-type) {
+    margin-bottom: .3125rem;
+}
+
+/** Airports **/
+#dm-get-there .dm-airports {
+    background-color: var(--green-2);
+    border: 1px solid var(--gray-5) !important;
+}
+
+#dm-get-there .dm-airports:not(:last-of-type) {
+    margin-bottom: 1.25rem;
+}
+
+#dm-get-there .dm-airports .card-body {
+    padding: 1.25rem;
+}
+
+#dm-get-there .dm-airports p {
+    color: var(--gray-2);
+}
+
+@media screen and (max-width: 991px) {
+    #dm-get-there .card {
+        margin-bottom: 1.25rem;
+    }
+}
