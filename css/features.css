@@ -1,0 +1,16 @@
+/** FEATURES **/
+#dm-features li {
+    color: var(--gray-2);
+    font-size: .875rem;
+}
+
+#dm-features li:not(:last-of-type) {
+    margin-bottom: .3125rem;
+}
+
+@media screen and (max-width: 991px) {
+    #dm-features-activities,
+    #dm-features-general {
+        margin-bottom: 1.25rem !important;
+    }
+}
