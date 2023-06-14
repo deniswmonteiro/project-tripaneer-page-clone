@@ -1,0 +1,32 @@
+/** FOOD **/
+#dm-food section:not(:last-of-type) {
+    margin-bottom: 2.5rem;
+}
+
+#dm-food p {
+    color: var(--gray-2);
+}
+
+#dm-food li {
+    color: var(--gray-2);
+    font-size: .875rem;
+}
+
+#dm-food li:not(:last-of-type) {
+    margin-bottom: .3125rem;
+}
+
+/** Special Dietary **/
+#dm-special-dietary {
+    background-color: var(--green-2);
+    border: 1px solid var(--gray-5) !important;
+    margin-top: 1.25rem;
+}
+
+#dm-special-dietary .card-body {
+    padding: 1.25rem;
+}
+
+#dm-special-dietary p {
+    color: var(--gray-2);
+}
