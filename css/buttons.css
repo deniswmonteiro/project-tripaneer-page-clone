@@ -1,0 +1,51 @@
+/** BUTTON BACK TO TOP **/
+#dm-btn-back-top button {
+    margin: 1.25rem 0;
+    font-size: .75rem;
+    color: var(--gray-1);
+    border: 1px solid var(--gray-1);
+    cursor: pointer;
+    transition: .3s;
+}
+
+#dm-btn-back-top button:hover {
+    background-color: var(--gray-1);
+    color: var(--white);
+    transition: .3s;
+}
+
+#dm-btn-back-top i {
+    margin-right: .3125rem;
+}
+
+/** BUTTON TOGGLE COLLAPSE **/
+#dm-btn-toggle-collapse button {
+    margin: 1.25rem 0;
+    font-size: .75rem;
+    color: var(--gray-1);
+    border: 1px solid var(--gray-1);
+    cursor: pointer;
+    transition: .3s;
+}
+
+#dm-btn-toggle-collapse button:hover {
+    background-color: var(--gray-1);
+    color: var(--white);
+    transition: .3s;
+}
+
+#dm-btn-toggle-collapse i {
+    margin-right: .3125rem;
+}
+
+/** BUTTON GREEN **/
+.dm-btn-green {
+    background-color: var(--green-1);
+    color: var(--white) !important;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.dm-btn-green:hover {
+    background-color: var(--green-3);
+}

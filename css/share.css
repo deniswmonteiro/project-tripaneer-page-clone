@@ -4,6 +4,8 @@
 }
 
 .dm-share-listing .dm-social-medias {
+    flex-wrap: wrap;
+    gap: 20px;
     margin-top: 1.25rem;
 }
 
@@ -33,4 +35,10 @@
 
 .dm-share-listing .dm-social-medias .btn i.dm-whatsapp {
     color: #02BF9B;
+}
+
+@media screen and (max-width: 991px) {
+    .dm-share-listing:nth-child(1) {
+        display: none;
+    }
 }

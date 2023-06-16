@@ -1,5 +1,6 @@
 @import url("variables.css");
 @import url("reset.css");
+@import url("buttons.css");
 @import url("header.css");
 @import url("general.css");
 @import url("introduction.css");
@@ -19,3 +20,4 @@
 @import url("cancellation.css");
 @import url("share.css");
 @import url("reviews.css");
+@import url("detach-review.css");

@@ -7,6 +7,10 @@ body.paused {
     touch-action: manipulation;
 }
 
+hr {
+    color: var(--gray-3);
+}
+
 /** BOOTSTRAP CARD **/
 .card,
 .card-header {
@@ -33,26 +37,6 @@ body.paused {
 
 .card h3 {
     margin-bottom: .625rem;
-}
-
-/** BUTTON TOGGLE COLLAPSE **/
-#dm-btn-toggle-collapse button {
-    margin: 1.25rem 0;
-    font-size: .75rem;
-    color: var(--gray-1);
-    border: 1px solid var(--gray-1);
-    cursor: pointer;
-    transition: .3s;
-}
-
-#dm-btn-toggle-collapse button:hover {
-    background-color: var(--gray-1);
-    color: var(--white);
-    transition: .3s;
-}
-
-#dm-btn-toggle-collapse i {
-    margin-right: .3125rem;
 }
 
 /** ACCORDION TRIP DESCRIPTION **/
@@ -105,22 +89,12 @@ body.paused {
     color: var(--gray-2);
 }
 
-/** BUTTON BACK TO TOP **/
-#dm-btn-back-top button {
-    margin: 1.25rem 0;
-    font-size: .75rem;
-    color: var(--gray-1);
-    border: 1px solid var(--gray-1);
-    cursor: pointer;
-    transition: .3s;
-}
+@media screen and (max-width: 1199px) {
+    .card-header {
+        padding: 1.25rem;
+    }
 
-#dm-btn-back-top button:hover {
-    background-color: var(--gray-1);
-    color: var(--white);
-    transition: .3s;
-}
-
-#dm-btn-back-top i {
-    margin-right: .3125rem;
+    .card-body {
+        padding: 1.25rem;
+    }
 }

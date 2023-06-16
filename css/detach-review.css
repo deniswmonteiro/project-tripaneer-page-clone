@@ -1,0 +1,87 @@
+/** DETACH REVIEW **/
+#dm-review {
+    margin-top: 2.5rem;
+}
+
+/** Rating **/
+#dm-review-rating {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding-bottom: 1.25rem;
+    font-size: .875rem;
+    margin-bottom: 1.25rem;
+}
+
+#dm-review-rating i {
+    color: var(--blue-1);
+}
+
+#dm-review-rating p {
+    color: var(--green-1);
+}
+
+#dm-review .dm-review-categories li {
+    font-size: .75rem;
+    color: var(--gray-4);
+}
+
+/** Divider Quote **/
+#dm-divider-quote {
+    margin: 1.25rem 0;
+}
+
+#dm-divider-quote i {
+    font-size: 2rem;
+    color: var(--gray-4);
+    top: -4px;
+    background-color: var(--white);
+    width: 16%;
+    text-align: center;
+}
+
+/** Review **/
+#dm-review-quote {
+    margin-bottom: 1.25rem;
+}
+
+#dm-review-quote p {
+    font-size: .875rem;
+    color: var(--gray-4);
+}
+
+#dm-review-quote .blockquote-footer {
+    margin-top: .625rem;
+    text-align: end;
+}
+
+#dm-review-quote .blockquote-footer::before {
+    content: "" !important;
+}
+
+#dm-review-quote .blockquote-footer p,
+#dm-review-quote .blockquote-footer span {
+    color: var(--gray-2);
+}
+
+/** Leave a Review **/
+[data-review-star] .dm-icon-star-path:hover {
+    fill: var(--green-1);
+}
+
+#dm-review-my-rating {
+    margin-top: 2.5rem;
+}
+
+#dm-review-my-rating h6 {
+    color: var(--gray-1);
+}
+
+#dm-review-my-rating .dm-icon-star {
+    cursor: pointer;
+    overflow: inherit;;
+}
+
+@media screen and (max-width: 991px) {
+    #dm-review {
+        margin-top: 0;
+    }
+}

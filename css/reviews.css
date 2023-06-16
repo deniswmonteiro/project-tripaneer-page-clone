@@ -1,37 +1,41 @@
 /** REVIEWS **/
+#dm-reviews {
+    margin-bottom: 2.5rem;
+}
+
 #dm-reviews #dm-reviewer {
     margin-bottom: 2.5rem;
 }
 
-#dm-reviews #dm-review-date {
+#dm-reviews #dm-reviews-date {
     font-size: .875rem;
     color: var(--gray-4);
 }
 
-#dm-reviews .dm-review-text {
+#dm-reviews .dm-reviews-text {
     font-size: .875rem;
     color: var(--gray-3);
 }
 
-#dm-reviews .dm-review-positive {
+#dm-reviews .dm-reviews-positive {
     color: var(--green-1);
 }
 
-#dm-reviews .dm-review-negative {
+#dm-reviews .dm-reviews-negative {
     color: var(--gray-1);
 }
 
-#dm-reviews #dm-review-rating {
+#dm-reviews .dm-categories-rating {
     margin-top: 1.25rem;
 }
 
-#dm-reviews #dm-review-rating tr {
+#dm-reviews .dm-categories-rating tr {
     display: grid;
     grid-template-columns: 12.5rem 1fr;
     align-items: center;
 }
 
-#dm-reviews #dm-review-rating td {
+#dm-reviews .dm-categories-rating td {
     font-size: .875rem;
     color: var(--gray-4);
 }

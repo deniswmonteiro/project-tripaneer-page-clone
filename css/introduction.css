@@ -44,7 +44,8 @@
     background-color: var(--blue-1);
 }
 
-#dm-favorite-toast i, #dm-favorite-toast p {
+#dm-favorite-toast i,
+#dm-favorite-toast p {
     color: var(--white);
 }
 
