@@ -1,0 +1,30 @@
+/** WHY CHOOSE **/
+#dm-choose {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+#dm-choose ul {
+    margin-top: .625rem;
+    list-style: none;
+}
+
+#dm-choose li {
+    padding: .25rem;
+    color: var(--gray-3);
+    font-size: .875rem;
+}
+
+#dm-choose li::before {
+    content: "";
+    display: inline-block;
+    width: .5rem;
+    height: .125rem;
+    background-color: var(--green-1);
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+#dm-choose p:first-of-type {
+    margin-top: 1.25rem;
+}
