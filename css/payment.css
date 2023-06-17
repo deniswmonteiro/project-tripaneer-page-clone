@@ -1,0 +1,13 @@
+/** PAYMENT **/
+#dm-payment {
+    margin-top: 2.5rem;
+}
+
+#dm-payment img {
+    margin-bottom: .625rem;
+}
+
+#dm-payment p {
+    font-size: .875rem;
+    color: var(--gray-4);
+}
