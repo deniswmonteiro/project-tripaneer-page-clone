@@ -1,0 +1,45 @@
+/** GIFT **/
+#dm-gift {
+    margin-top: 2.5rem;
+}
+
+#dm-gift-content {
+    display: grid;
+    grid-template-columns: 8.125rem 1fr;
+    grid-gap: 10px
+}
+
+/** Details **/
+#dm-gift-details i {
+    color: var(--green-1);
+}
+
+#dm-gift-details p {
+    margin-top: .625rem;
+    margin-bottom: .625rem;
+    font-size: .875rem;
+    color: var(--gray-2);
+}
+
+#dm-gift-details a {
+    color: var(--green-1);
+}
+
+#dm-gift-details a::after {
+    content: "";
+    display: inline-block;
+    box-sizing: border-box;
+    width: .575rem;
+    height: .575rem;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(315deg);
+    color: var(--green-1);
+    margin-left: .3125rem;
+    transition: .3s;
+}
+
+#dm-gift-details a:hover::after {
+    margin-left: .625rem;
+    transition: .3s;
+}
