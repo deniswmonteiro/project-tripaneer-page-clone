@@ -1,0 +1,145 @@
+/** PRICING **/
+#dm-pricing {
+    margin-top: 2.5rem;
+}
+
+/** Pricing Detail **/
+#dm-pricing-detail {
+    margin-bottom: 2.5rem;
+}
+
+/** Pricing Days **/
+#dm-pricing-detail .dm-pricing-days {
+    color: var(--gray-2);
+}
+
+/** Pricing Value **/
+#dm-pricing-detail .dm-pricing-value {
+    color: var(--gray-4);
+}
+
+#dm-pricing-detail .dm-pricing-value span {
+    color: var(--gray-1);
+    line-height: 1.2;
+}
+
+/** Pricing Info **/
+#dm-pricing-detail .dm-pricing-info {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+#dm-pricing-detail .dm-pricing-info h5 {
+    color: var(--gray-1);
+    font-size: .875rem;
+    line-height: 1.4;
+}
+
+#dm-pricing-detail .dm-pricing-info p {
+    color: var(--gray-2);
+}
+
+/** Arrival Date **/
+#dm-arrival-date {
+    margin-bottom: 2.5rem;
+}
+
+#dm-arrival-date label {
+    margin-bottom: 1.25rem;
+}
+
+#dm-arrival-date input {
+    color: var(--gray-1);
+}
+
+#dm-arrival-date input:focus {
+    border-color: var(--green-1);
+    outline: none;
+    box-shadow: none;
+}
+
+/** Package **/
+#dm-package h4 {
+    margin-bottom: 1.25rem;
+}
+
+#dm-package .form-group {
+    padding: 20px 0;
+    z-index: 1;
+}
+
+#dm-package .form-group.dm-active::before {
+    content: "";
+    width: calc(100% + 5rem);
+    height: 100%;
+    background-color: var(--green-1);
+    display: block;
+    opacity: .1;
+    position: absolute;
+    left: -40px;
+    top: 0;
+    z-index: -1;
+}
+
+#dm-package input {
+    margin-right: .625rem;
+}
+
+#dm-package .dm-package-details .dm-package-persons {
+    margin-bottom: .3125rem;
+}
+
+#dm-package .dm-package-details .dm-package-room-description {
+    color: var(--gray-2);
+    font-size: .875rem;
+    margin-bottom: .3125rem;
+}
+
+#dm-package .dm-package-details .dm-package-room-name {
+    color: var(--gray-4);
+    font-size: .875rem;
+}
+
+#dm-package .dm-package-price span {
+    color: var(--gray-2);
+    font-size: .75rem;
+}
+
+#dm-package .dm-package-actions {
+    margin-top: .625rem;
+}
+
+#dm-package .form-group.dm-active .dm-package-actions .dm-btn-outline {
+    color: var(--green-1);
+}
+
+#dm-package .form-group.dm-active .dm-package-actions .dm-btn-outline:hover {
+    background-color: var(--green-1);
+    color: var(--white);
+    border-color: inherit;
+}
+
+/** Buttons **/
+#dm-booking-button {
+    margin-top: 2.5rem;
+}
+
+#dm-booking-button .dm-btn-outline {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: 1rem !important;
+    color: var(--green-1);
+}
+
+#dm-booking-button .dm-btn-outline:hover {
+    background-color: var(--green-1);
+    color: var(--white);
+    border-color: inherit;
+}
+
+@media screen and (max-width: 1199px) {
+    #dm-package .form-group.dm-active::before {
+        width: calc(100% + 2.5rem);
+        left: -20px;
+    }
+}

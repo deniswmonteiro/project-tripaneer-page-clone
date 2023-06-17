@@ -3,3 +3,4 @@ import "./header.js";
 import "./introduction.js";
 import "./slide.js";
 import "./review.js";
+import "./pricing.js";

@@ -27,6 +27,19 @@ option {
 	color: var(--gray-1);
 }
 
+input[type="radio"] {
+	border-color: var(--gray-1);
+}
+
+input[type="radio"]:checked {
+	background-color: var(--red);
+	border-color: var(--red);
+}
+
+input[type="radio"]:focus {
+	box-shadow: none;
+}
+
 img {
 	display: block;
 	max-width: 100%;

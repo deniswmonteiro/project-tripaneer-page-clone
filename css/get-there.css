@@ -14,12 +14,12 @@
     padding: 1.25rem;
 }
 
-#dm-get-there .dm-airport-card .card-body h5 {
+#dm-get-there .dm-airport-card .card-body h3 {
     color: var(--gray-1);
     margin-bottom: .625rem;
 }
 
-#dm-get-there .dm-airport-card .card-body h5 i {
+#dm-get-there .dm-airport-card .card-body h3 i {
     color: var(--gray-4);
     margin-left: .3125rem;
 }

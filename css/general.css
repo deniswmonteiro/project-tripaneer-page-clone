@@ -89,6 +89,10 @@ hr {
     color: var(--gray-2);
 }
 
+.daterangepicker td.active, .daterangepicker td.active:hover {
+    background-color: var(--green-1) !important;
+}
+
 @media screen and (max-width: 1199px) {
     .card-header {
         padding: 1.25rem;

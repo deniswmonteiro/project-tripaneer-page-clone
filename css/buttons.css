@@ -49,3 +49,19 @@
 .dm-btn-green:hover {
     background-color: var(--green-3);
 }
+
+/** BUTTON OUTLINE **/
+.dm-btn-outline {
+    color: var(--gray-3);
+    font-size: .75rem !important;
+    padding: .3125rem .9375rem;
+    border: 1px solid;
+    transition: .3s;
+}
+
+.dm-btn-outline:hover {
+    background-color: var(--gray-3);
+    color: var(--white);
+    border: 1px solid inherit;
+    transition: .3s;
+}
