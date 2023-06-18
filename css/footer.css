@@ -1,0 +1,47 @@
+/** FOOTER **/
+#dm-footer {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+#dm-footer span {
+    font-size: .75rem;
+    color: var(--gray-4);
+    margin-bottom: .625rem;
+}
+
+#dm-footer h6 {
+    margin-bottom: .625rem;
+    color: var(--gray-1);
+}
+
+#dm-footer .dm-footer-text {
+    margin-top: 1.25rem;
+}
+
+#dm-footer .dm-footer-text p {
+    color: var(--gray-2);
+    font-size: .875rem;
+}
+
+#dm-footer .dm-footer-text i {
+    font-size: 1.25rem;
+    color: var(--gray-4);
+}
+
+#dm-footer ul {
+    list-style: none;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+#dm-footer ul li a {
+    font-size: .875rem !important;
+    color: var(--gray-2);
+}
+
+/** Copyright **/
+#dm-footer-copyright p {
+    color: var(--gray-4);
+    font-size: .875rem;
+}
