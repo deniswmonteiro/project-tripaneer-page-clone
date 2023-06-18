@@ -40,6 +40,10 @@
     color: var(--gray-2);
 }
 
+#dm-footer ul li a:hover {
+    text-decoration: underline;
+}
+
 /** Copyright **/
 #dm-footer-copyright p {
     color: var(--gray-4);

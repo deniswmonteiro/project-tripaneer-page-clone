@@ -63,7 +63,7 @@
 }
 
 /** Leave a Review **/
-[data-review-star].active path {
+[data-review-star].activeHover path {
     fill: var(--green-1);
 }
 
