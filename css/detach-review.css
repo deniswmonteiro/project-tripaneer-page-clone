@@ -63,7 +63,7 @@
 }
 
 /** Leave a Review **/
-[data-review-star] .dm-icon-star-path:hover {
+[data-review-star].active path {
     fill: var(--green-1);
 }
 

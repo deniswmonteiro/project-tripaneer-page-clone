@@ -1,0 +1,63 @@
+/** SUBSCRIBE **/
+#dm-subscribe {
+    background-color: var(--blue-2);
+    padding: 3.75rem 0;
+}
+
+/** Subscribe Icon **/
+#dm-subscribe i {
+    font-size: 6.25rem;
+    color: var(--gray-1);
+    margin-right: 2.5rem;
+}
+
+/** Subscribe Text Content **/
+#dm-subscribe-content h2 {
+    line-height: 1.2;
+    color: var(--gray-1);
+    margin-bottom: 1.25rem;
+}
+
+#dm-subscribe-content p {
+    font-size: 1.25rem;
+    color: var(--gray-2);
+}
+
+/** Subscribe Form **/
+#dm-subscribe form label {
+    margin-bottom: .3125rem;
+}
+
+#dm-subscribe form input {
+    color: var(--gray-1);
+}
+
+#dm-subscribe form input:focus {
+    border-color: var(--green-1);
+    outline: none;
+    box-shadow: none;
+}
+
+#dm-subscribe form input::placeholder {
+    color: var(--gray-4);
+}
+
+#dm-subscribe form .dm-btn-green {
+    padding: 1rem 2.75rem;
+}
+
+#dm-subscribe form p {
+    margin-top: .625rem;
+    font-size: .75rem;
+    color: var(--gray-2);
+}
+
+@media screen and (max-width: 1199px) {
+    #dm-subscribe-content h2 {
+        margin-bottom: .625rem;
+    }
+
+    #dm-subscribe form {
+        margin-top: 1.25rem;
+    }
+}
